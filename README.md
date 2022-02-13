@@ -1,1 +1,1 @@
-# Learning Basic of GO
+# Learning Basic of GO by Sekolahkoding.com
