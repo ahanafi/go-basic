@@ -2,8 +2,11 @@ package main
 
 import "fmt"
 
+// function type declaration
+type Filter func(string) string
+
 // Function as parameter
-func sayHelloWithFilter(name string, filter func(string) string) {
+func sayHelloWithFilter(name string, filter Filter) {
 	nameFiltered := filter(name)
 	fmt.Println("Hello", nameFiltered)
 }
