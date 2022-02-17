@@ -18,3 +18,7 @@ func SayHello(name string) { 		// <-- Can accessed
 func sayGoodBye(name string) {		// <-- Cannot accessed
 	fmt.Println("Good bye", name)
 }
+
+func init() {
+	fmt.Println("Init from SayHello was called...")
+}
